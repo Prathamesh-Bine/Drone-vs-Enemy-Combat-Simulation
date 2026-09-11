@@ -13,6 +13,10 @@ A 3D drone combat simulation developed in Unity, demonstrating physics-based mov
 * **Visual Effects:** Upgraded to the Universal Render Pipeline (URP) with custom-colored unlit particle explosions for destroyed entities.
 * **Modern Inputs:** Integrated Unity's new Input System via direct InputActions to handle UI and pause state toggling.
 
+ ## Known bugs or limitations
+* **Static Enemies:** Enemy placement is currently fixed within the scene and they do not feature complex pathfinding AI.
+* **Game Loop**: Upon player destruction, the scene immediately reloads to reset the score, rather than transitioning to a dedicated "Game Over" screen.
+
 ## Screenshots
 <img width="1920" height="1080" alt="Screenshot (316)" src="https://github.com/user-attachments/assets/66962aa1-9e76-4901-8543-de201bdb681c" />
 <img width="1920" height="1080" alt="Screenshot (317)" src="https://github.com/user-attachments/assets/f7f81593-a429-4de7-a878-9f801289b1f6" />
